@@ -1,27 +1,29 @@
 package com.javaoo.calculators;
 
+import java.lang.Math;
+
 public class TrigonometricCalculator {
-	public double sine(double a) {
-		return 0;
+	public static double sine(double a) {
+		return Math.sin(a);
 	}
 	
-	public double cosine(double a) {
-		return 0;
+	public static double cosine(double a) {
+		return Math.cos(a);
 	}
 	
-	public double tangent(double a) {
-		return 0;
+	public static double tangent(double a) {
+		return Math.tan(a);
 	}
 	
-	public double arcsine(double a) {
-		return 0;
+	public static double arcsine(double a) {
+		return Math.asin(a);
 	}
 	
-	public double arccosine(double a) {
-		return 0;
+	public static double arccosine(double a) {
+		return Math.acos(a);
 	}
 	
-	public double arctangent(double a) {
-		return 0;
+	public static double arctangent(double a) {
+		return Math.atan(a);
 	}
 }
